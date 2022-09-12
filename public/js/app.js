@@ -19,7 +19,7 @@ weatherForm.addEventListener('submit', (event) => {
             }
             else {
                 messageOne.textContent = data.location
-                messageTwo.textContent = data.forecast
+                messageTwo.innerHTML = data.forecast
             }
         })
 })
